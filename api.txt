@@ -1,0 +1,43 @@
+1)api for craeting a new user account
+    url:http://127.0.0.1:8000/api/register/
+    method:post
+    data:{username,email,password}
+    authorization:nill
+
+2)login
+
+3)api for listing all todos
+
+    url:http://127.0.0.1:8000/api/todos/
+    method:get
+    data:nill
+    authorization:{username,password}
+
+4)api for fetching a specific todo detail   
+
+    url:http://127.0.0.1:8000/api/todos/{id}/
+    method:get
+    data:nill
+    authorization:{username,password}
+
+5)api for creating a new todo
+
+    url:http://127.0.0.1:8000/api/todos/
+    method:post
+    data:{name}
+    authorization:{username,password}
+
+
+6)api for deleteing a todo
+    url:http://127.0.0.1:8000/api/todos/{id}/
+    method:delete
+    data:nill
+    authorization:{username,password}
+
+
+
+7)api for update a todo
+    url:http://127.0.0.1:8000/api/todos/{id}/
+    method:put
+    data:{name,status}
+    authorization:{username,password}
